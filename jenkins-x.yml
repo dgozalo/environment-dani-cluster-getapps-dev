@@ -1,0 +1,3 @@
+pipelineConfig:
+  agent:
+    container: jenkinsxio/builder-go:0.0.0-SNAPSHOT-PR-3903-1
