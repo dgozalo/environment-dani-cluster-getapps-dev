@@ -1,0 +1,13 @@
+apiVersion: jenkins.io/v1
+kind: App
+metadata:
+  annotations:
+    jenkins.io/chart-description: The Datadog App for Jenkins X
+    jenkins.io/chart-repository: http://chartmuseum.jenkins-x.io
+  creationTimestamp: null
+  labels:
+    chart: jx-app-datadog-0.0.3
+    jenkins.io/app-name: jx-app-datadog
+    jenkins.io/app-version: 0.0.3
+  name: jx-app-datadog-jx-app-datadog
+spec: {}
