@@ -1,0 +1,6 @@
+pipelineConfig:
+  pipelines:
+    pullRequest:
+      pipeline:
+        agent:
+          image: jenkinsxio/jx:0.0.0-SNAPSHOT-PR-3903-1
