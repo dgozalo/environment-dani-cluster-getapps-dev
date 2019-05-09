@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  annotations:
+    jenkins.io/chart-description: A Helm chart for the JenkinsX JaCoCo App
+    jenkins.io/chart-repository: http://chartmuseum.jenkins-x.io
+  creationTimestamp: null
+  labels:
+    app: jx-app-jacoco
+    chart: jx-app-jacoco-0.0.123
+    draft: draft-app
+    heritage: Tiller
+    jenkins.io/app-name: jx-app-jacoco
+    jenkins.io/app-version: 0.0.123
+    release: jx-app-jacoco
+  name: jx-app-jacoco-jx-app-jacoco
+spec: {}
