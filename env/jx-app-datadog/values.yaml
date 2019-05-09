@@ -1,0 +1,4 @@
+datadog:
+  apiKey: vault:gitOps/dgozalo/environment-dani-cluster-getapps-dev/datadog-apikey-secret:token-passthrough
+  logEnabled: false
+  site: datadoghq.com
