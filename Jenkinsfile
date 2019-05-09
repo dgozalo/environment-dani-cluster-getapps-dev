@@ -4,7 +4,7 @@ pipeline {
     DEPLOY_NAMESPACE = "jx"
   }
   stages {
-    stage('Validate Environment') {
+    stage('Validate Environments') {
       steps {
         dir('env') {
           sh 'jx step helm build'
