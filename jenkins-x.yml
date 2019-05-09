@@ -5,3 +5,4 @@ pipelineConfig:
         agent:
           image: jenkinsxio/jx:0.0.0-SNAPSHOT-PR-3903-1
         stages:
+          - name: build
